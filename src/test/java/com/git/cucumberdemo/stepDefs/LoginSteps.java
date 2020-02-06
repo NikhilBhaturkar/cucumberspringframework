@@ -36,7 +36,7 @@ public class LoginSteps {
 	@Then("Click on Search button")
 	public void clickOnSearchButton() {
 		searchPage.clickonSearch();
-		loginPage.quitBrowser();
+		LoginPage.quitBrowser();
 	}
 	
 }
